@@ -1,0 +1,16 @@
+{
+  "name": "elm-make-parallell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf packages/p*/elm-stuff && lerna run build",
+    "build-sequential": "rm -rf packages/p*/elm-stuff && lerna run build --concurrency 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elm": "^0.19.0-bugfix2",
+    "lerna": "^3.4.3"
+  }
+}

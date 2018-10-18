@@ -1,0 +1,11 @@
+{
+  "name": "p4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "elm make Main.elm"
+  },
+  "author": "",
+  "license": "ISC"
+}
